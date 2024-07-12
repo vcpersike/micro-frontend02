@@ -9,7 +9,7 @@ export default defineConfig({
       name: 'microFront02',
       filename: 'remoteEntry.js',
       exposes: {
-        './Cart': './src/Cart',
+        './Cart': './src/App',
       },
       shared: ['react', 'react-dom'],
     })
